@@ -1,0 +1,58 @@
+<resources>
+
+    <string name="app_name">AgriSense</string>
+    <string name="tagline">Smart Farming Solutions</string>
+    <string name="welcome_back">Welcome Back</string>
+    <string name="login_to_continue">Login to continue</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">LOGIN</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="dont_have_account_register">Don\'t have an account? Register</string>
+    <string name="logo_desc">AgriSense Logo</string>
+    <string name="create_account">Create Account</string>
+    <string name="sign_up_to_get_started">Sign up to get started</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="register">REGISTER</string>
+    <string name="address">Address</string>
+    <string name="reg_date">Registration Date</string>
+    <string name="total_crops">Total Crops</string>
+    <string name="total_irrigation">Total Irrigation</string>
+    <string name="total_fertilizers">Total Fertilizers</string>
+    <string name="total_notes">Total Notes</string>
+    <string name="export_csv">Export Data (CSV)</string>
+    <string name="csv_path_label">File stored in: Internal Storage > Android > data > com.example.agrisense > files</string>
+    <string name="csv_generated">CSV Data Generated Successfully</string>
+    <string name="name">Full Name</string>
+    <string name="phone">Phone Number</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_pests">Pest</string>
+    <string name="nav_profile">Profile</string>
+    <string name="nav_settings">Settings</string>
+    <string name="logout">Logout</string>
+
+    <!-- Pest Detection -->
+    <string name="pest_detection">Pest Detection</string>
+    <string name="manual_id">Manual Identification</string>
+    <string name="treatment_suggestion">Treatment Suggestion</string>
+
+    <!-- Languages -->
+    <string name="select_language">Select Language / ಭಾಷೆಯನ್ನು ಆರಿಸಿ</string>
+    <string name="english">English</string>
+    <string name="kannada">ಕನ್ನಡ (Kannada)</string>
+    <string name="welcome_agrivision">Welcome to AgriSense</string>
+    <string name="quick_actions">Quick Actions</string>
+    <string name="farmer_name">Farmer Name</string>
+    <string name="change_password">Change Password</string>
+    <string name="suggest">Suggest</string>
+    <string name="suggested_days">Suggested based on %1$d days growth</string>
+    <string name="crop_hint">Crop Name (e.g. Rice, Tomato)</string>
+    <string name="harvest_date">Harvest Date</string>
+    <string name="enter_crop_plant_first">Enter Crop Name and Planting Date first</string>
+    <string name="date_format_error">Use format DD/MM/YYYY for planting date</string>
+
+    <string name="already_have_account_login">Already have an account? Login</string>
+    <string name="farm_reports">Farm Reports</string>
+</resources>

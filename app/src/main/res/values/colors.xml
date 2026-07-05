@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Core Aesthetic Palette -->
+    <color name="primaryGreen">#4F6F52</color>
+    <color name="darkGreen">#1A4D2E</color>
+    <color name="lightGreen">#D2E3C8</color>
+    <color name="aesthetic_bg">#F8FAF5</color>
+
+    <!-- Button Backgrounds (Pastel Aesthetic) -->
+    <color name="bg_crops">#E7F3EF</color>
+    <color name="bg_irrigation">#E1F0F7</color>
+    <color name="bg_fertilizer">#F9EFE3</color>
+    <color name="bg_pests">#F7E7E7</color>
+    <color name="bg_notes">#EEE7F7</color>
+    <color name="bg_reports">#EBEBEB</color>
+
+    <!-- Button Text/Icon Colors (Deep Tones) -->
+    <color name="txt_crops">#2D5A47</color>
+    <color name="txt_irrigation">#2D4B5A</color>
+    <color name="txt_fertilizer">#5A422D</color>
+    <color name="txt_pests">#5A2D2D</color>
+    <color name="txt_notes">#432D5A</color>
+    <color name="txt_reports">#3E3E3E</color>
+
+    <!-- UI Elements -->
+    <color name="accentGold">#D4AF37</color>
+    <color name="brightBlue">#5F9EA0</color>
+    <color name="brightOrange">#BC8F8F</color>
+    <color name="brightRed">#A0522D</color>
+
+    <color name="card_dark">#2D2E2E</color>
+    <color name="text_on_dark">#F7F9F2</color>
+    <color name="text_secondary_on_dark">#D2E3C8</color>
+    <color name="softBeige">#F7F9F2</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="black">#1A4D2E</color>
+    <color name="gray">#739072</color>
+</resources>

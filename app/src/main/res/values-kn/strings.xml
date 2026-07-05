@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ಅಗ್ರಿ ಸೆನ್ಸ್</string>
+    <string name="tagline">ಸ್ಮಾರ್ಟ್ ಕೃಷಿ ಪರಿಹಾರಗಳು</string>
+    <string name="welcome_back">ಸ್ವಾಗತ</string>
+    <string name="login_to_continue">ಮುಂದುವರಿಯಲು ಲಾಗಿನ್ ಮಾಡಿ</string>
+    <string name="email">ಇಮೇಲ್</string>
+    <string name="password">ಪಾಸ್‌ವರ್ಡ್</string>
+    <string name="login">ಲಾಗಿನ್</string>
+    <string name="forgot_password">ಪಾಸ್‌ವರ್ಡ್ ಮರೆತಿರುವಿರಾ?</string>
+    <string name="dont_have_account_register">ಖಾತೆ ಇಲ್ಲವೇ? ನೋಂದಾಯಿಸಿ</string>
+    <string name="logo_desc">ಅಗ್ರಿ ಸೆನ್ಸ್ ಲೋಗೋ</string>
+    <string name="create_account">ಖಾತೆ ರಚಿಸಿ</string>
+    <string name="sign_up_to_get_started">ಪ್ರಾರಂಭಿಸಲು ಸೈನ್ ಅಪ್ ಮಾಡಿ</string>
+    <string name="confirm_password">ಪಾಸ್‌ವರ್ಡ್ ದೃಢೀಕರಿಸಿ</string>
+    <string name="register">ನೋಂದಾಯಿಸಿ</string>
+    <string name="already_have_account_login">ಈಗಾಗಲೇ ಖಾತೆ ಹೊಂದಿದ್ದೀರಾ? ಲಾಗಿನ್ ಮಾಡಿ</string>
+    <string name="address">ವಿಳಾಸ</string>
+    <string name="reg_date">ನೋಂದಣಿ ದಿನಾಂಕ</string>
+    <string name="farm_reports">ಫಾರ್ಮ್ ವರದಿಗಳು</string>
+    <string name="name">ಪೂರ್ಣ ಹೆಸರು</string>
+    <string name="phone">ದೂರವಾಣಿ ಸಂಖ್ಯೆ</string>
+
+    <string name="nav_home">ಮುಖಪುಟ</string>
+    <string name="nav_pests">ಕೀಟ</string>
+    <string name="nav_profile">ಪ್ರೊಫೈಲ್</string>
+    <string name="nav_settings">ಸೆಟ್ಟಿಂಗ್‌ಗಳು</string>
+    <string name="logout">ಲಾಗ್ ಔಟ್</string>
+
+    <string name="pest_detection">ಕೀಟ ಪತ್ತೆ</string>
+    <string name="treatment_suggestion">ಚಿಕಿತ್ಸೆಯ ಸಲಹೆ</string>
+
+    <string name="select_language">ಭಾಷೆಯನ್ನು ಆರಿಸಿ</string>
+    <string name="welcome_agrivision">ಅಗ್ರಿ ಸೆನ್ಸ್‌ಗೆ ಸುಸ್ವಾಗತ</string>
+    <string name="quick_actions">ತ್ವರಿತ ಕ್ರಮಗಳು</string>
+    <string name="manual_id">ಹಸ್ತಚಾಲಿತ ಗುರುತಿಸುವಿಕೆ</string>
+    <string name="farmer_name">ರೈತರ ಹೆಸರು</string>
+    <string name="change_password">ಪಾಸ್‌ವರ್ಡ್ ಬದಲಾಯಿಸಿ</string>
+    <string name="suggest">ಸೂಚಿಸಿ</string>
+    <string name="suggested_days">%1$d ದಿನಗಳ ಬೆಳವಣಿಗೆಯ ಆಧಾರದ ಮೇಲೆ ಸೂಚಿಸಲಾಗಿದೆ</string>
+    <string name="crop_hint">ಬೆಳೆ ಹೆಸರು (ಉದಾ. ಭತ್ತ, ಟೊಮೆಟೊ)</string>
+    <string name="harvest_date">ಕೊಯ್ಲು ದಿನಾಂಕ</string>
+    <string name="enter_crop_plant_first">ಮೊದಲು ಬೆಳೆ ಹೆಸರು ಮತ್ತು ನಾಟಿ ದಿನಾಂಕವನ್ನು ನಮೂದಿಸಿ</string>
+    <string name="date_format_error">ನಾಟಿ ದಿನಾಂಕಕ್ಕಾಗಿ DD/MM/YYYY ಸ್ವರೂಪವನ್ನು ಬಳಸಿ</string>
+
+    <string name="total_crops">ಒಟ್ಟು ಬೆಳೆಗಳು</string>
+    <string name="total_irrigation">ಒಟ್ಟು ನೀರಾವರಿ</string>
+    <string name="total_fertilizers">ಒಟ್ಟು ರಸಗೊಬ್ಬರಗಳು</string>
+    <string name="total_notes">ಒಟ್ಟು ಟಿಪ್ಪಣಿಗಳು</string>
+    <string name="export_csv">ಡೇಟಾ ರಫ್ತು (CSV)</string>
+    <string name="csv_path_label">ಫೈಲ್ ಇಲ್ಲಿದೆ: Internal Storage > Android > data > com.example.agrisense > files</string>
+    <string name="csv_generated">CSV ಡೇಟಾವನ್ನು ಯಶಸ್ವಿಯಾಗಿ ರಚಿಸಲಾಗಿದೆ</string>
+</resources>

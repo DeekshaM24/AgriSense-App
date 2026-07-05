@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/aesthetic_bg"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".activities.PestDetectionActivity">
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@android:color/transparent"
+        app:title="@string/pest_detection"
+        app:titleTextColor="@color/darkGreen" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Select Crop"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+    <Spinner
+        android:id="@+id/spinnerPestCrop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/manual_id"
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <RadioGroup
+        android:id="@+id/rgPestStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp">
+
+        <RadioButton
+            android:id="@+id/rbHealthy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Healthy"
+            android:buttonTint="@color/primaryGreen"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:padding="12dp" />
+
+        <RadioButton
+            android:id="@+id/rbMinor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Minor Disease"
+            android:buttonTint="@color/brightOrange"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:padding="12dp" />
+
+        <RadioButton
+            android:id="@+id/rbSerious"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Serious Disease"
+            android:buttonTint="@color/brightRed"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:padding="12dp" />
+
+    </RadioGroup>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnDetect"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_marginTop="32dp"
+        android:text="Get Treatment Suggestion"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:backgroundTint="@color/primaryGreen"
+        app:cornerRadius="16dp"
+        app:elevation="4dp" />
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/cardResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:visibility="gone"
+        app:cardBackgroundColor="@color/card_dark"
+        app:cardCornerRadius="24dp"
+        app:cardElevation="12dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="24dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/treatment_suggestion"
+                android:textColor="@color/lightGreen"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtTreatment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Treatment goes here..."
+                android:textColor="@color/accentGold"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+</LinearLayout>
